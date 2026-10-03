@@ -1,0 +1,13 @@
+# KPD Public Housing Entrance Monitoring System — Python dependencies
+#
+# IMPORTANT: use opencv-contrib-python, NOT opencv-python.
+# The plain package does not include the cv2.face module, and
+# process_and_train.py calls cv2.face.LBPHFaceRecognizer_create().
+#
+# Verify after installing:
+#   python -c "import cv2; print(cv2.__version__); cv2.face.LBPHFaceRecognizer_create()"
+
+opencv-contrib-python>=4.8.0
+numpy>=1.24
+requests>=2.31
+python-dateutil>=2.8.2

@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Face data and trained models — NEVER commit these.
+# They are biometric data belonging to real people, and they are regenerated
+# locally by running the enrolment steps in the README.
+# ---------------------------------------------------------------------------
+# The leading slash anchors these to the repository root. Without it, the
+# pattern would also match docs/images/ and silently exclude the README artwork.
+# 開頭的斜線把規則限制在倉庫根目錄；若沒有它，規則會連 docs/images/ 也一併
+# 排除，令 README 的插圖無法上傳。
+/Images/
+/Images_processed/
+/Images_backup*/
+/Images_processed_backup*/
+/model.yml
+/labels.json
+
+# The same data, in case somebody keeps it in a data/ sub-folder.
+# 若有人把資料放在 data/ 子資料夾，同樣排除。
+/data/Images/
+/data/Images_processed/
+
+# ---------------------------------------------------------------------------
+# The live database contains residents' names, room numbers and entry/exit
+# history. Ship the schema (database_init.py) instead, not the data.
+# ---------------------------------------------------------------------------
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Tooling / editors
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS noise
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Thonny
+.thonny/
+
+# Logs produced by the scheduled monthly reset
+reset.log
+*.log
