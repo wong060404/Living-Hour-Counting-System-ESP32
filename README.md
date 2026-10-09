@@ -42,11 +42,6 @@ Built as the *Project on Knowledge Product Development* (CCIT4080) final-year pr
 | [20. Team and credits](#20-team-and-credits) | [團隊與鳴謝](#20-team-and-credits) |
 | [Appendix: verifying the reports by hand](#appendix-verifying-the-reports-by-hand) | [附錄：手動核對報表](#appendix-verifying-the-reports-by-hand) |
 
-> **How to read this document · 怎樣讀這份文件**
->
-> Every section is written twice: the **English** text comes first, then the **中文** version of the same content. Tables and diagrams are shared wherever possible, so one picture serves both languages.
->
-> 每一節都寫兩次：先**英文**，再同一內容的**中文**。表格與圖片盡量共用，所以一張圖同時服務兩種語言。
 
 ---
 
